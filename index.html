@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MILS</title>
+</head>
+<site>
+    <body>
+        <div class="sidebar">
+            <div class="lims">
+                <h3><a href="index.html">LIMS</a></h3>
+            </div>
+            <div class="sidebar-content">
+                <input class="search" type="search" placeholder="Search"/>
+            </div>
+            <div class="run-time">
+                <div class="run-time-back">Run 00:23/01:00</div>
+            </div>
+            <div class="run-status">
+                <p class="run-text">RUN</p>
+                <div class="run-status-btn">
+                    <button  class="btn-item">
+                        <span class="activ"></span>
+                        <p>On</p>
+                    </button>
+                    <button  class="btn-item">
+                        <span></span>
+                        <p>Off</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <header class="header">
+                <div class="header-link">
+                    <div class="burger">
+                        <span class="burger-span"></span>
+                    </div>
+                    <nav class="header-menu">
+                        <ul>
+                            <li><a href="#">Instruments <span>></span></a>
+                                <ul class="drop-menu">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Widgets</a></li>
+                            <li><a href="#">View</a></li>
+                            <li><a href="#">Administrations</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-login">
+                    <p class="log-name">Alexander</p>
+                    <p class="log-lang">ENG <span>></span></p>
+                    <button class="log-btn"></button>
+                </div>
+            </header>
+            <div class="promo">
+                <div class="widjet">
+                    <div class="sampler">
+                        <div class="sampler-container">
+                            <span class="sampler-span"></span>
+                            <p>Sampler</p>
+                        </div>
+                        <div class="sampler-svg">
+                            <div class="svg-container">
+                                <svg>
+                                    <use xlink:href="img/sampler-icon.svg#injection" width="75" height="75" y="25"></use>
+                                </svg>
+                            </div>
+                            <div class="img-container">
+                                <img src="img/thermostat.png" alt="#">
+                                <img src="img/vial.png" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pump">
+                        <div class="pump-container">
+                            <span class="pump-span"></span>
+                            <p class="pump-text">Quat. Pump</p>
+                        </div>
+                        <div class="pump-svg">
+                            <svg width="40" height="125" viewBox="0 0 80 80">
+                                <use xlink:href="img/bottle_filling_sprite.svg#bottle"></use>
+                                <text y="80" x="20" font-size="28" font-family="Avenir, Helvetica, sans-serif">A
+                                </text>
+                                <text y="130" x="20" font-size="16" font-family="Avenir, Helvetica, sans-serif">0.0
+                                </text>
+                            </svg>
+                            <svg width="40" height="125" viewBox="0 0 80 80">
+                                <use xlink:href="img/bottle_filling_sprite.svg#bottle"></use>
+                                <use xlink:href="img/bottle_filling_sprite.svg#full"></use>
+                                <text y="80" x="20" font-size="28" font-family="Avenir, Helvetica, sans-serif">B
+                                </text>
+                                <text y="130" x="10" font-size="16" font-family="Avenir, Helvetica, sans-serif">100.0
+                                </text>
+                            </svg>
+                            <svg width="80" height="125" viewBox="-10 -40 80 100">
+                                <use xlink:href="img/valve-icon.svg#Canvas"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-info">
+                    <div class="method">
+                        <nav class="method-nav">
+                            <a href="#worklist" class="nav-item">Worklist RUN TO DO: 23 injections 02:15:00</a>
+                            <a href="#method" class="nav-item">Method: Method1.amx (00:00/04:30)</a>
+                            <a href="#single" class="nav-item">single run</a>
+                        </nav>
+                        <div class="method-content">
+                            <div class="tabs">
+                                <a href="#" class="tabs-item">ALS</a>
+                                <a href="#" class="tabs-item">Inlets</a>
+                                <a href="#" class="tabs-item">Columns</a>
+                            </div>
+                            <div class="left-block">
+                                <div class="image">
+                                    <div class="image-item">
+                                        <p class="top-text">Front Inlet</p>
+                                        <img src="img/inlet .png" alt="#"/>
+                                        <p class="bottom-text">SS(H<sub>2</sub>)</p>
+                                    </div>
+                                    <div class="arrow">&rarr;</div>
+                                    <div class="image-item">
+                                        <p class="top-text">Agilent 19091Q-002</p>
+                                        <img src="img/column.png" alt="#"/>
+                                        <p class="bottom-text">60&deg;C - 450&deg;C(450&deg;C)<br/>*320&mu;m*1&mu;m</p>
+                                        <p class="bottom-text"></p>
+                                    </div>
+                                    <div class="arrow">&rarr;</div>
+                                    <div class="image-item">
+                                        <p class="top-text">Back Detector</p>
+                                        <img src="img/detector.png" alt="#"/>
+                                        <p class="bottom-text">NPD</p>
+                                    </div>
+                                    <div class="square">
+                                        <p>(Initial): 0 min<br/>ArMe @ 35 &deg;C  Oven<br/>Out: Ambient Pressure<br/> 25m * 320 μm * 1μm</p>
+                                    </div>
+                                </div>
+                                <div class="controle">
+                                    <hr style="width: 10px;"/>Control Mode<hr style="width: 450px;"/><br/>
+                                    <div class="controle-check">
+                                        <input type="checkbox" name="On"><label>On</label>
+                                    </div>
+                                    <table class="table-left">
+                                        <tr>
+                                            <td>Flow</td>
+                                            <td class="numeral">16.849</td>
+                                            <td>mL/min</td>
+                                            <td>Average Velocity</td>
+                                            <td class="numeral">198.05</td>
+                                            <td>cm/sec</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pressure</td>
+                                            <td class="numeral">21.756</td>
+                                            <td>psi</td>
+                                            <td>Holdup Time</td>
+                                            <td class="numeral">0.21038</td>
+                                            <td>min</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="post">
+                                    <hr style="width: 10px;"/>Post Run<hr style="width: 180px;"/>&nbsp;<hr style="width: 10px;"/>Column #2 Configuration<hr style="width: 130px;"/><br/>
+                                    <table class="table-left">
+                                        <tr>
+                                            <td>Flow</td>
+                                            <td class="numeral">16.849</td>
+                                            <td>mL/min</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="right-block">
+                                <hr style="width: 10px;"/>Pressure/Flow Settings<hr style="width: 530px;"/><br/>
+                                <div class="input-right">
+                                    <label><input type="radio" name="Settings" value="cp">Constant Pressure</label>
+                                    <label><input type="radio" name="Settings" value="rp">Ramped Pressure</label>
+                                    <label><input type="radio" name="Settings" value="cf">Constant Flow</label>
+                                    <label><input type="radio" name="Settings" value="rf">Ramped Flow</label>
+                                </div>
+                                <table class="table-right">
+                                    <tr class="table-right-header">
+                                        <!--<th class="table-right-header" colspan="6">&nbsp; Ramp## Rate, mL/min per min Value, mL/min Hold Time, min Run Time, min</th>-->
+                                        <th>Ramp##</th>
+                                        <th>Rate, mL/min per min</th>
+                                        <th>Value, mL/min</th>
+                                        <th>Hold Time, min</th>
+                                        <th>Time, min</th>
+                                        <th>Run Time, min</th>
+                                       </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td >(Initial)</td>
+                                        <td></td>
+                                        <td>16.849</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr class="color">
+                                        <td><label><input type="radio" name="Choose" value="choose"></label></td>
+                                        <td>Ramp 1</td>
+                                        <td>10</td>
+                                        <td>16.849</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><input type="radio" name="Choose" value="choose"></label></td>
+                                        <td>Ramp 2</td>
+                                        <td>20</td>
+                                        <td>16.849</td>
+                                        <td>5</td>
+                                        <td>26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="method-btn">
+                            <div class="round-btn">
+                                <button>
+                                    <span class="new"></span>
+                                    <p>New</p>
+                                </button>
+                                <button>
+                                    <span class="open"></span>
+                                    <p>Open</p>
+                                </button>
+                            </div>
+                            <div class="ellips-btn">
+                                <button>Save</button>
+                                <button>Save as</button>
+                                <button>Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result">
+                        <div class="chart">
+                            <img src="./img/main-chart.png"/>
+                        </div>
+                        <div class="spectra">
+                            <img src="./img/result-table.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</site>
+
+</html>
